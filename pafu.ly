@@ -18,9 +18,9 @@ a4 a c c |
 g2 r4 g |
 \break
 f4 f g f |
-e8 g4 c8 (c4) \breathe c8 c8 |
-c4 a b8 c4 d8 (|
-d2) r4 r4 |
+e8 g4 c8 ~ c4 \breathe c8 c8 |
+c4 a b8 c4 d8 ~|
+d2 r4 r4 |
 \break
 c4 r8 c8 c4 c |
 b2 g4 r4 |
@@ -28,7 +28,7 @@ a4 a c c |
 g2 r4 g |
 \break
 f4 f g f |
-e8 g4 c8 (c4) \breathe c8 c8 |
+e8 g4 c8 ~ c4 \breathe c8 c8 |
 a4 c b d |
 c2 r4 r4 |
 }
@@ -90,9 +90,9 @@ a4 a c c |
 g2 r4 g |
 \break
 f4 f g f |
-e8 g4 c8 (c4) \breathe c8 c8 |
-c4 a b8 c4 d8 (|
-d2) r4 r4 |
+e8 g4 c8 ~ c4 \breathe c8 c8 |
+c4 a b8 c4 d8 ~|
+d2 ~ r4 r4 |
 \break
 c4 r8 c8 c4 c |
 b2 g4 r4 |
@@ -100,7 +100,7 @@ a4 a c c |
 g2 r4 g |
 \break
 f4 f g f |
-e8 g4 c8 (c4) \breathe c8 c8 |
+e8 g4 c8 ~ c4 \breathe c8 c8 |
 a4 c b d |
 c2 r4 r4 |
 \break
