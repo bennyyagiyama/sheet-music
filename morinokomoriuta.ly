@@ -95,7 +95,7 @@
    {
    <<
    {
-   c4 r8 e16 d | 
+   c,4 r8 e16 d | 
    }
    \new Staff
    {
