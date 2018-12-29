@@ -1,5 +1,5 @@
 \header {
-  title = "æ£®ã®å­ããæ­"
+  title = "morinokomoriuta"
   composer = "Composer"
 }
 
@@ -9,6 +9,7 @@
   \numericTimeSignature
 \time 2/4
   \partial 8 e16 d |
+  \repeat volta 2 {
    e8 r r e8 |
    g r r e16 d |
    e8 r r e8 |
@@ -39,10 +40,11 @@
    g r e d |
    c4 a' |
    g8 e4 d8 |
-   c8 c d8. d16 |
-   c4 r8 e16 d |
-   c4.
-   
+   c8 c d8. d16 | }
+   \alternative {
+   c4 r8 e16 d | }
+   {\partial 4. c4.}
+   \bar "|."
 
   }
 
