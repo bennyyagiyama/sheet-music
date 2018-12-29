@@ -21,17 +21,39 @@
    d4 e8 c8 |
    d4 r8 e16 d |
    \break
+   <<
+   {
    e8 r r e8 |
    g r r e16 d |
    e8 r r e8 |
    g r e d |
    \break
-   c4 a' |
+   }
+   \new Staff {
+   r4 c' |
+   b2 |
+   r4 a |
+   g2  \breathe|
+   }
+   \break
+   >>
+   <<
+   {
+   c,4 a' |
    g8 e4 d8 |
    c8 c8 d8. d16 |
    c4. r8 |
    \break
-   a'4 a |
+   }
+   \new Staff {
+   a'2 |
+   g2 |
+   a4 b |
+   c4. r8 |
+   \break
+   }
+   >>
+   a4 a |
    b8 a g4 |
    f8 g a b |
    e,8 e e r |
@@ -41,18 +63,54 @@
    c8. c16 b8 a |
    g4 r8 e16 d |
    \break
+   <<
+   {
    e8 r r e8 |
    g r r e16 d |
    e8 r r e8 |
    g r e d |
    \break
-   c4 a' |
+   }
+   \new Staff {
+   r4 c' |
+   b2 |
+   r4 a |
+   g2 \breathe
+   }
+   >>
+   <<
+   {
+   c,4 a' |
    g8 e4 d8 |
-   c8 c d8. d16 | }
+   c8 c d8. d16 |
+   }
+   \new Staff {
+   a'2 |
+   g2 |
+   a4 b |
+   }
+   >>
+   }
    \alternative {
-   {c4 r8 e16 d | }
-   {\partial 4. c4.
-   \bar "|." }
+   {
+   <<
+   {
+   c4 r8 e16 d | 
+   }
+   \new Staff
+   {
+   c4 r |
+   }
+   >>
+   }
+   {
+   \partial 4.
+   << 
+   {c4.}
+   \new Staff {c4.}
+   >>
+   \bar "|." 
+   }
    }
 
   }
