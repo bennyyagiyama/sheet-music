@@ -5,7 +5,7 @@
 
 \score {
   \relative c' {
-\tempo 4 = 116
+\tempo 4 = 58
 c''4 c c c,,
 <<
 {
